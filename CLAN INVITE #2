@@ -1,0 +1,5 @@
+local args = {
+    [1] = "CLAN031b83d2d159492496263fa055821f6f"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_net@0.1.0"):WaitForChild("net"):WaitForChild("RF/JoinClan"):InvokeServer(unpack(args))
